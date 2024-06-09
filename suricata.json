@@ -1,0 +1,27 @@
+{
+    "suricata_result": {
+        "status": "timeout",
+        "suricata_output": "Suricata command timed out."
+    },
+    "suricata_logs": [
+        "05/27/2024-17:07:16.922515  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:52758 -> 142.250.199.174:80",
+        "05/27/2024-17:07:16.922541  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:52758 -> 142.250.199.174:80",
+        "05/27/2024-17:13:46.291839  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:49048 -> 142.251.42.67:80",
+        "05/27/2024-17:13:46.291838  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:49048 -> 142.251.42.67:80",
+        "05/27/2024-17:13:46.675018  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:49056 -> 142.251.42.67:80",
+        "05/27/2024-17:13:46.675020  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:49056 -> 142.251.42.67:80",
+        "05/27/2024-17:13:52.412610  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:47846 -> 142.250.199.133:80",
+        "05/27/2024-17:13:52.412614  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:47846 -> 142.250.199.133:80",
+        "05/27/2024-17:22:13.196198  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:59082 -> 173.223.235.9:80",
+        "05/27/2024-17:22:13.196301  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:59088 -> 173.223.235.9:80",
+        "05/27/2024-17:22:13.211700  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:59098 -> 173.223.235.9:80",
+        "05/27/2024-17:22:13.211820  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:59100 -> 173.223.235.9:80",
+        "05/27/2024-17:22:13.212028  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:59116 -> 173.223.235.9:80",
+        "05/27/2024-17:29:39.512580  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:33082 -> 157.240.16.35:80",
+        "05/27/2024-17:29:39.512573  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:33082 -> 157.240.16.35:80",
+        "05/27/2024-17:29:39.512749  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:33094 -> 157.240.16.35:80",
+        "05/27/2024-17:29:39.512751  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:33094 -> 157.240.16.35:80",
+        "05/27/2024-17:29:39.634408  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:36298 -> 152.195.38.76:80",
+        "05/27/2024-17:29:39.634439  [**] [1:100001:0] HTTP Traffic Detected [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.180.131:36298 -> 152.195.38.76:80"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "spider_status": "completed",
+    "scan_status": "completed",
+    "alerts": [
+        {
+            "sourceid": "3",
+            "other": "",
+            "method": "GET",
+            "evidence": "",
+            "pluginId": "10015",
+            "cweid": "525",
+            "confidence": "Low",
+            "wascid": "13",
+            "description": "The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.",
+            "messageId": "4",
+            "inputVector": "",
+            "url": "https://sundartechno.com/robots.txt",
+            "tags": {
+                "CWE-525": "https://cwe.mitre.org/data/definitions/525.html",
+                "WSTG-v42-ATHN-06": "https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses"
+            }
+            }
+        ]
+}

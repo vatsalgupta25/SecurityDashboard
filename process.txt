@@ -1,0 +1,19 @@
+all 4 security systems are completed.
+. Port scanner - Nmap
+. Intrusion detection system - Suricata 
+. Honeypot - cowrie
+. Active attacker - ZAP
+tasks to be completed:
+1.suricata is already in Kali, so move all above to kali, and run and test them.
+2.check for all requirements, and create the requirements file, and also check what all would be required to run cowrie.
+3.create all outputs, and export to json.
+4.sort out how to trigger events from flask app.
+5.integrate everything to the flask app, and give it a front-end.
+6.create all documents, and update everything on Git.
+7.update resume.
+
+update:
+1. all files to kali.
+2. ports, suricata, and zap is running.
+3. all outputs are in json.
+4.
