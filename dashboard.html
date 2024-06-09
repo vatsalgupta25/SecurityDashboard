@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Security Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Security Dashboard</h1>
+        
+        <!-- Port Scan Results -->
+        <div class="section">
+            <h2>Port Scan Results</h2>
+            <ul>
+                {% for port, state in combined_results.scan_results.items() %}
+                    <li>Port {{ port }}: {{ state }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Suricata Results -->
+        <div class="section">
+            <h2>Suricata Results</h2>
+            <ul>
+                {% for key, value in combined_results.suricata_results.items() %}
+                    <li>{{ key }}: {{ value }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- ZAP Results -->
+        <div class="section">
+            <h2>ZAP Results</h2>
+            <ul>
+                {% for key, value in combined_results.zap_results.items() %}
+                    <li>{{ key }}: {{ value }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
